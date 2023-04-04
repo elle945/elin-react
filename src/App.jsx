@@ -2,12 +2,19 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import BuildIcon from '@mui/icons-material/Build';
+import Button from '@mui/material/Button';
+import NavbarComp from './components/NavbarComp';
+import About from './pages/About';
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+           <NavbarComp />
+           <About firstname={'Elin'} counter={"1"} />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -21,9 +28,11 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <Button variant="contained"> Bajs</Button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+        <BuildIcon />
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
