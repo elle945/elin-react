@@ -1,0 +1,111 @@
+[
+    {
+        "id": "1",
+        "category": "Apline",
+        "img": "/src/images/Snowboard (1).jpg",
+        "info": [
+            {
+                "id": "1",
+                "type": "Ski Areas & Ski Passes",
+                "img": "/src/images/Snowboard (7).jpg"
+            },
+            {
+                "id": "2",
+                "type": "Skiing for kids",
+                "img": "/src/images/Snowboard (8).jpg"
+            },
+            {
+                "id": "3",
+                "type": "Ski system and slopes",
+                "img": "/src/images/Snowboard (9).jpg"
+            },
+            {
+                "id": "4",
+                "type": "Lunch places and mountain resturants",
+                "img": "/src/images/Snowboard (19).jpg"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "category": "Nordic",
+        "img": "/src/images/Snowboard (2).jpg",
+        "info": [
+            {
+                "id": "1",
+                "type": "Nordic skiing trails"
+            },
+            {
+                "id": "2",
+                "type": "Skiing touring"
+            },
+            {
+                "id": "3",
+                "type": "Evening lit illuminated trails"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "category": "Kids",
+        "img": "/src/images/Snowboard (3).jpg",
+        "info": [
+            {
+                "id": "1",
+                "type": "Ice Skating"
+            },
+            {
+                "id": "2",
+                "type": "Play house"
+            },
+            {
+                "id": "3",
+                "type": "Mickey-mouse area"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "category": "Adrenaline",
+        "img": "/src/images/Snowboard (7).jpg",
+        "info": [
+            {
+                "id": "1",
+                "type": "Ice climbing"
+            },
+            {
+                "id": "2",
+                "type": "Ice driving"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "category": "Resturants",
+        "img": "/src/images/Snowboard (5).jpg",
+        "info": [
+            {
+                "id": "1",
+                "type": "A la carte"
+            },
+            {
+                "id": "2",
+                "type": "Brewery"
+            },
+            {
+                "id": "3",
+                "type": "Lunch resturants",
+                "name": [
+                    {
+                        "id": "1",
+                        "title": "VinContoret"
+                    },
+                    {
+                        "id": "2",
+                        "title": "VinContoret"
+                    }
+                ]
+            }
+        ]
+    }
+]
